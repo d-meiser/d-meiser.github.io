@@ -1,0 +1,10 @@
+name: Dominic Meiser
+markdown: kramdown
+repository: d-meiser/d-meiser.github.io
+gems:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
+
