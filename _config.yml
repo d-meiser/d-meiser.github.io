@@ -10,3 +10,5 @@ gems:
 
 port: 4000
 safe: true
+encoding: UTF-8
+
