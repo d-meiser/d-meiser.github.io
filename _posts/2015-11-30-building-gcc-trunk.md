@@ -43,7 +43,7 @@ pretty damn easy to build it from scratch.  So here's what you do.
 
 First, you need to get the source.  For the trunk of `gcc` you use
 {% highlight bash %}
-$ svn co svn://gcc.gnu.org/svn/gcc/trunk gcc-trunk
+svn co svn://gcc.gnu.org/svn/gcc/trunk gcc-trunk
 {% endhighlight %}
 
 To compile `gcc`, a few libraries are needed.  Getting the libraries is
@@ -52,8 +52,8 @@ bundled with the source.  Much easier than getting and installing these
 libraries by hand, making sure that they're the right version, and that
 `gcc` is able to find them, etc.
 {% highlight bash %}
-$ cd gcc-trunk
-$ ./contrib/download_prerequisites
+cd gcc-trunk
+./contrib/download_prerequisites
 {% endhighlight %}
 Running this script from the top level of the `gcc` source tree is
 important in order for the configuration scripts to find the libraries
@@ -64,16 +64,16 @@ environment variables that can mess up the build.  It's a good idea to
 make sure that all of these are unset before doing the configuration.
 
 {% highlight bash %}
-$ unset C_INCLUDE_PATH CPLUS_INCLUDE_PATH CFLAGS CXXFLAGS
+unset C_INCLUDE_PATH CPLUS_INCLUDE_PATH CFLAGS CXXFLAGS
 {% endhighlight %}
 
 We configure the build out-of-source.  This way we don't pollute the
 source tree with any build artifacts.  And we can clean up after
 building simply by blowing away the build directory.
 {% highlight bash %}
-$ cd ../
-$ mkdir gcc-trunk-build
-$ cd gcc-trunk-build
+cd ../
+mkdir gcc-trunk-build
+cd gcc-trunk-build
 {% endhighlight %}
 `gcc`'s configuration uses autotools.  It's pretty impressive setup.
 The `configure` script in the root directory is more than 16k lines long
@@ -81,7 +81,7 @@ at the time of this writing!! Gulp.
 
 Usually I configure gcc as follows.
 {% highlight bash %}
-$ ../gcc/configure \
+../gcc/configure \
     --prefix=/usr/gcc-trunk \
     --enable-languages=c,c++,fortran \
     --disable-libquadmath \
