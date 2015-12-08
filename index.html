@@ -3,7 +3,14 @@ layout: default
 title: Dominic Meiser
 ---
 
-<h1>Hi there,</h1>
+<div style="margin-top:5ex">
+<ul class="posts">
 
-<p>My name is Dominic.
-</p>
+  {% for post in site.posts %}
+    <li>
+      <span>{{ post.date | date_to_string }}</span>,
+      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+</div>
