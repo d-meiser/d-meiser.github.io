@@ -5,8 +5,7 @@ date: 2015-11-30
 ---
 
 Tools for C++ have made incredible progress over the last few years.
-With every release `gcc` and `clang` are becoming nicer in many ways
-[^1]:
+With every release gcc and clang are becoming nicer in many ways [^1]:
 
 [^1]: The same could be said for MSVC, but I rarely program on windows
       so can't say much about that.  Also, as of this writing it's not
@@ -37,27 +36,45 @@ your needs.  For example, with gcc you get to chose the linker that it
 uses which can make a fair bit of difference in linker speed.  Finally,
 isn't it just great fun to be using the latest and greatest?
 
-This post gives a quick walk through of how I go about building `gcc`
-from source.  Turns out the many folks working on `gcc` have made it
-pretty damn easy to build it from scratch.  So here's what you do.
+This post gives a quick walk through of how to go about building gcc
+from source.  Turns out the many folks working on gcc have made it
+pretty damn easy to build it from scratch.
 
-First, you need to get the source.  For the trunk of `gcc` you use
+
+## The recipe
+
+The recipe for building gcc from source entails
+
+- Obtaining the source code
+- Configuration
+- Compilation
+- Installation
+
+In the following we'll go through these steps in detail.
+
+
+### Obtaining the source code
+
+First, you need to get the source.  For the trunk of gcc you use
 {% highlight bash %}
 svn co svn://gcc.gnu.org/svn/gcc/trunk gcc-trunk
 {% endhighlight %}
 
-To compile `gcc`, a few libraries are needed.  Getting the libraries is
-super easy with the help of script that the `gcc` maintainers have
+To compile gcc, a few libraries are needed.  Getting the libraries is
+super easy with the help of script that the gcc maintainers have
 bundled with the source.  Much easier than getting and installing these
 libraries by hand, making sure that they're the right version, and that
-`gcc` is able to find them, etc.
+gcc is able to find them, etc.
 {% highlight bash %}
 cd gcc-trunk
 ./contrib/download_prerequisites
 {% endhighlight %}
-Running this script from the top level of the `gcc` source tree is
+Running this script from the top level of the gcc source tree is
 important in order for the configuration scripts to find the libraries
 automatically.
+
+
+### Configuration
 
 Next, you need to configure the build of gcc.  There are a bunch of
 environment variables that can mess up the build.  It's a good idea to
@@ -75,7 +92,7 @@ cd ../
 mkdir gcc-trunk-build
 cd gcc-trunk-build
 {% endhighlight %}
-`gcc`'s configuration uses autotools.  It's pretty impressive setup.
+gcc's configuration uses autotools.  It's pretty impressive setup.
 The `configure` script in the root directory is more than 16k lines long
 at the time of this writing!! Gulp.
 
@@ -107,12 +124,20 @@ C++ projects.
 The configuration should finish rather quickly and after that you're all
 good to go to build the compiler with
 
+
+### Compilation
+
 ```
 make -j4
 ```
 
 For a non-bootstrapping build this should take no more than about 20
-minutes.  Finally, to install use
+minutes.
+
+
+### Installation
+
+Finally, to install use
 
 ```
 make install
@@ -154,7 +179,7 @@ discussion.  The next morning things were fixed again.
 ## Links and further reading
 
 - [http://www.linuxfromscratch.org/lfs/view/stable/chapter05/gcc-pass2.html](http://www.linuxfromscratch.org/lfs/view/stable/chapter05/gcc-pass2.html)
-  Somebody else's recipe.
+  Another build recipe.
 - [https://gcc.gnu.org/install/index.html](https://gcc.gnu.org/install/index.html)
   Detailed documentation of the configuration and build process.
 - [https://gcc.gnu.org/wiki/InstallingGCC](https://gcc.gnu.org/wiki/InstallingGCC)
