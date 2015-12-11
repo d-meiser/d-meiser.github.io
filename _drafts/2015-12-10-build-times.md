@@ -18,7 +18,8 @@ are the results.
 
 ## The contestants
 
-For this comparison I built gcc's trunk (revision ) as follows:
+For this comparison I built gcc's trunk (revision 231276, last modified
+on12/4/2015) as follows:
 
 
 ### default build of gcc:
