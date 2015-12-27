@@ -47,11 +47,18 @@ make install
 
 ### profile guided optimized + gold linker
 
+I use the `profiledbootstrap` target to get a build of gcc with profile
+guided optimization.  This target gathers profiling information during
+one of the bootstrap stages and uses that in the final build stage that
+produces the compiler executables.  This obviously means that we cannot
+disable the bootstrapping process.  The following build takes quite a
+bit of time (a few hours typically):
 {% highlight bash %}
 ../gcc/configure \
   --prefix=/usr/gcc-trunk-pg-gold \
   --enable-languages=c,c++,fortran \
-  --disable-werror
+  --disable-werror \
+  --disable-libquadmath --disable-libquadmath-support \
   --enable-gold
 make -j4 profiledbootstrap
 make install
