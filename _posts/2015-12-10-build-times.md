@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Optimizing gcc build times"
+title: "Optimizing gcc for fastest build times"
 date: 2015-12-10
 ---
 
