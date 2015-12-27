@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How much of a difference does optimization of gcc make"
+title: "Optimizing gcc build times"
 date: 2015-12-10
 ---
 
