@@ -4,22 +4,16 @@ title: "How much of a difference does optimization of gcc make"
 date: 2015-12-10
 ---
 
-One of the perks of building gcc from source is that you get to customize it to
-your needs.  One area of customization is the level of optimization with which
-gcc itself is compiled.  This should have an impact on subsequent build times
-with that compiler.  This can be very helpful when working on a large code base
-or during testing (especially with continuous integration setups where the code
-base needs to be built and rebuilt very frequently).  So how much of a
-difference does an optimized ubild really make?
-
-To find out I used different builds of gcc to compile several code bases.  Here
-are the results.
+One of the perks of building gcc from source is that you get to
+customize it to your needs.  For example you get to choose the level of
+optimization with which gcc itself is compiled.  So how much of a
+difference does an optimized build make?
 
 
 ## The contestants
 
 For this comparison I built gcc's trunk (revision 231276, last modified
-on12/4/2015) as follows:
+on 12/4/2015) as follows:
 
 
 ### default build of gcc:
@@ -40,7 +34,7 @@ make install
 
 {% highlight bash %}
 ../gcc/configure \
-  --prefix=/usr/gcc-trunk \
+  --prefix=/usr/gcc-trunk-gold \
   --enable-languages=c,c++,fortran \
   --disable-werror \
   --disable-bootstrap \
@@ -55,13 +49,15 @@ make install
 
 {% highlight bash %}
 ../gcc/configure \
-  --prefix=/usr/gcc-trunk \
+  --prefix=/usr/gcc-trunk-pg-gold \
   --enable-languages=c,c++,fortran \
   --disable-werror
   --enable-gold
-make -j4
+make -j4 profiledbootstrap
 make install
 {% endhighlight %}
+
+[^1]
 
 
 ## Results
@@ -94,3 +90,12 @@ So that's consistent with the timing difference we saw for the full
 builds.  gold shaves off about 30 percent from the link times.
 
 
+[^1]: Word on the street is that link time optimization (lto) also makes
+a difference.  I tried to create a build with lto and profile guided
+optimization but failed pretty badly.  Apparently lto and the profile
+guided optimization.  I kept running into compiler errors complaining
+about mismatching control flow between the measurement run and the
+second compilation run.  Eventually I managed to hack my way around
+these issues but the resulting compiler was about a factor of five
+slower than the results presented here.  Most likely user error.  Will
+have to try lto by itself to see if that leads to better results.
