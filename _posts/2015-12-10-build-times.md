@@ -97,10 +97,9 @@ builds.  gold shaves off about 30 percent from the link times.
 
 [^1]: Word on the street is that link time optimization (lto) also makes
       a difference.  I tried to create a build with lto and profile
-      guided optimization but failed pretty badly.  Apparently lto and
-      the profile guided optimization.  I kept running into compiler
-      errors complaining about mismatching control flow between the
-      measurement run and the second compilation run.  Eventually I
+      guided optimization but failed pretty badly.  I kept running into
+      compiler errors complaining about mismatching control flow between
+      the measurement run and the second compilation run.  Eventually I
       managed to hack my way around these issues but the resulting
       compiler was about a factor of five slower than the results
       presented here.  Most likely user error.  Will have to try lto by
