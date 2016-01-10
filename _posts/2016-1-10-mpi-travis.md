@@ -101,6 +101,7 @@ LDLIBS+=-lmpi
 {% endhighlight %}
 
 For completeness, here is the source of the `test.c` program:
+
 ``` c
 #include <mpi.h>
 #include <assert.h>
