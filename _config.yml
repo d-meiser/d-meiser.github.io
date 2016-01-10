@@ -8,6 +8,10 @@ gems:
 - jekyll-sitemap
 - jemoji
 
+syntax-highlighting:
+  enabled : true
+  css: syntax.css
+
 port: 4000
 safe: true
 encoding: UTF-8
