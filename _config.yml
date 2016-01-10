@@ -8,7 +8,10 @@ gems:
 - jekyll-sitemap
 - jemoji
 
-highlighter: pygments
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 syntax-highlighting:
   enabled : true
   css: syntax.css
