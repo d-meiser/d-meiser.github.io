@@ -122,7 +122,7 @@ int main(int argn, char **argv)
 
 	return 0;
 }
-{% endlightlight %}
+{% endhighlight %}
 
 Of course this approach can be refined in many ways.  In a real
 project you'll want to interface with your configuration system
