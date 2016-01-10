@@ -102,7 +102,7 @@ LDLIBS+=-lmpi
 
 For completeness, here is the source of the `test.c` program:
 
-``` c
+{% highlight c %}
 #include <mpi.h>
 #include <assert.h>
 #include <stdio.h>
@@ -123,7 +123,7 @@ int main(int argn, char **argv)
 
 	return 0;
 }
-```
+{% endhighlight %}
 
 Of course this approach can be refined in many ways.  In a real
 project you'll want to interface with your configuration system
