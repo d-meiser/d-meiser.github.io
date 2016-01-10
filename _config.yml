@@ -10,12 +10,11 @@ gems:
 
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
   hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css: syntax.css
 
-syntax-highlighting:
-  enabled : true
-  css: syntax.css
 
 port: 4000
 safe: true
