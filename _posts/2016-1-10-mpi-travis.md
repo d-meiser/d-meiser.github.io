@@ -5,7 +5,8 @@ date: 2016-1-10
 ---
 
 In hind sight I should not have been surprised: testing MPI
-projects with travis is super easy!  I've created a
+projects with travis is super easy!  This post gives a walk
+through of a
 [minimal template](https://github.com/d-meiser/mpi-travis) that
 illustrates the process.
 
@@ -52,9 +53,10 @@ fi
 {% endhighlight %}
 
 The script first checks if we already have `libmpich.so`.  If so,
-we are done and the rest of the script is skipped.  This
-makes the script idem-potent:  calling the script a second time
-yields the same state of the mpich installation.
+we are done and the rest of the script is skipped.  The script is
+idem-potent: calling the script a second time yields the same
+state of the mpich installation.  Only the first execution of the
+script does any real work.
 
 If we don't find `libmpich.so` we have to do the actual work
 involved in obtaining MPICH.  We download the source tarball,
@@ -82,12 +84,13 @@ The first line disables `sudo` for the test run.  This is
 important because it allows us to use the container
 infrastructure on travis.  The containerized instances are faster
 than the regular ones and, more importantly, have access to
-caching of build artifacts.  We cache the `mpich` directory which
-is where we install MPICH with the `get_mpich.sh` script from
-above.  Once the MPICH installation is cached the `get_mpich.sh`
-finishes nearly instantaneously on subsequent test runs.  For
-this template, an entire test run finishes in less than ten
-seconds.
+caching of build artifacts.  On the non-containerized
+infrastructure you have to pay to be able to use caching.  We
+cache the `mpich` directory which is where we install MPICH with
+the `get_mpich.sh` script from above.  Once the MPICH
+installation is cached the `get_mpich.sh` finishes nearly
+instantaneously on subsequent test runs.  For this template, an
+entire test run finishes in less than ten seconds.
 
 The actual test script is then super simple.  We simple build the
 `test` executable and run it with the desired number of processes
@@ -124,6 +127,9 @@ int main(int argn, char **argv)
 	return 0;
 }
 {% endhighlight %}
+
+
+## Where to go from here
 
 Of course this approach can be refined in many ways.  In a real
 project you'll want to interface with your configuration system
