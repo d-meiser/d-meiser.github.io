@@ -31,8 +31,8 @@ based off of Kjell's code.
 
 In this post I describe the steps needed to set up continuous
 integration for `guile-zeromq-3`.  You can find the code in the
-github repo
-[https://github.com/d-meiser/guile-zeromq-3](https://github.com/d-meiser/guile-zeromq-3).
+following
+[github repo](https://github.com/d-meiser/guile-zeromq-3).
 Hopefully this can serve as a more generally useful recipe for
 other guile packages as well.
 
