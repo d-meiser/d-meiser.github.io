@@ -175,32 +175,33 @@ Once the bindings are built and installed we run the example
 provided in the repo as a test that everything is working.
 
 
+## Test coverage
+
+Usually it's really helpful to measure and report test coverage.
+I set up test coverage reporting.  The C code of the bindings is
+`gcov` instrumented when it's compiled using the flags shown on
+the configure line above.  When the code is exercised by the
+tests the number of hits of each line of source code is recorded.
+That coverage data is then processed by the `lcov` program and
+posted to the
+[coveralls.io](https://coveralls.io/github/d-meiser/guile-zeromq-3)
+service.  `coveralls.io` presents the coverage data in an easy to
+navigate and interpret form.
+
+The test setup is not perfect.  For example we're not capturing
+the coverage of the scheme code.  I'm not sure if there is a good
+way to accomplish this.  If someone knows how to do that, please
+let me know.  The `gcov` instrumentation also gets a bit confused
+by the generated file `guile-zmq.x`.
+
+
 ## Conclusion
 
 I'm mostly happy with the setup of the test project.  I certainly
-have a better idea of how to install packages with guile.  There
-are just a couple of loose ends.
+have a better idea of how to install packages with guile.
 
-
-### Coverage data isn't working yet
-
-The generation of coverage data isn't working yet.  When I run
-the tests locally I see that `gcno` files are being generated,
-
-```bash
-$ find . | grep gcno
-./guile-zmq/libguile_zmq_la-guile-zmq.gcno
-./guile-zmq/.libs/libguile_zmq_la-guile-zmq.gcno
-
-```
-
-but there are no `gcda` files.  The `gcda` files are needed by
-`lcov` to generate the coverage report.
-
-
-### Error loading shared library
-
-On one local machine I keep getting the following error message:
+There are some loose ends.  On one local machine I keep getting
+the following error message:
 
 ```bash
 scheme@(guile-user)> ,use (zmq)
