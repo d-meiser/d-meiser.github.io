@@ -3,6 +3,7 @@ layout: post
 title: "It's difficult to wrap your head around 18 significant digits"
 date: 2017-3-12
 ---
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 Over the years I've had the opportunity to collaborate with clock researchers on
 a few occasions. These folks now build clocks with a stability approaching one
