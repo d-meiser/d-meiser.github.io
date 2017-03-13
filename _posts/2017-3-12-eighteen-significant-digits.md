@@ -7,7 +7,7 @@ date: 2017-3-12
 
 Over the years I've had the opportunity to collaborate with clock researchers on
 a few occasions. These folks now build clocks with a stability approaching one
-part in $10^{18}$. This means that on average the clock "ticks" $10^{18}$ times
+part in <span>$10^{18}$</span>. This means that on average the clock "ticks" $10^{18}$ times
 before it misses a beat. The number $10^{18}$ is $1 000 000 000 000 000 000$, a
 one followed by 18 zeros. It is a billion billions.
 
