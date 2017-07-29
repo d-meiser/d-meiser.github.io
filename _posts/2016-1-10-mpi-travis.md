@@ -13,7 +13,7 @@ illustrates the process.
 
 ## Installation of MPICH
 
-Obviously, in order to test MPI code, we need an MPI library.
+In order to test MPI code, we need an MPI library.
 [OpenMPI](http://www.open-mpi.org) or [MPICH](https://mpich.org)
 are the obvious choices.  Here we'll be using MPICH.
 
@@ -52,11 +52,11 @@ else
 fi
 {% endhighlight %}
 
-The script first checks if we already have `libmpich.so`.  If so,
-we are done and the rest of the script is skipped.  The script is
-idem-potent: calling the script a second time yields the same
-state of the mpich installation.  Only the first execution of the
-script does any real work.
+The script first checks if we already have `libmpich.so`.  If
+that is the case, we are done and the rest of the script is
+skipped.  The script is idem-potent: calling the script a second
+time yields the same state of the mpich installation.  Only the
+first execution of the script does any real work.
 
 If we don't find `libmpich.so` we have to do the actual work
 involved in obtaining MPICH.  We download the source tarball,
@@ -83,8 +83,8 @@ script:
 The first line disables `sudo` for the test run.  This is
 important because it allows us to use the container
 infrastructure on travis.  The containerized instances are faster
-than the regular ones and, more importantly, have access to
-caching of build artifacts.  On the non-containerized
+than the regular ones and, more importantly in this case, have
+access to caching of build artifacts.  On the non-containerized
 infrastructure you have to pay to be able to use caching.  We
 cache the `mpich` directory which is where we install MPICH with
 the `get_mpich.sh` script from above.  Once the MPICH
@@ -92,11 +92,11 @@ installation is cached the `get_mpich.sh` finishes nearly
 instantaneously on subsequent test runs.  For this template, an
 entire test run finishes in less than ten seconds.
 
-The actual test script is then super simple.  We simple build the
+The actual test script is then super simple.  We build the
 `test` executable and run it with the desired number of processes
 using MPICH's `mpirun`.  Of course you need to tell the compiler
 where to find the MPI headers and library.  In our case we do
-this very simply using a handwritten gnu `Makefile`:
+this using a handwritten gnu `Makefile`:
 {% highlight make %}
 CFLAGS+=-I./mpich/include
 LDFLAGS+=-L./mpich/lib -Wl,-rpath,./mpich/lib
@@ -131,10 +131,11 @@ int main(int argn, char **argv)
 
 ## Where to go from here
 
-Of course this approach can be refined in many ways.  In a real
+This approach can be refined in a number of ways.  In a real
 project you'll want to interface with your configuration system
-(e.g. cmake) and you're tests will have to be hooked into your
-test harness.  You could also imagine testing on several
-different MPICH versions and with OpenMPI.  You can do that
-easily using the travis test matrix, e.g. using environment
-variables to control which MPI is built and used.
+(e.g. cmake) and your tests will have to be hooked into your test
+harness.  You could also imagine testing on several different
+MPICH versions and with OpenMPI.  You can do that using the
+travis test matrix using environment variables to control which
+MPI is built and used.
+
