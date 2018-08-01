@@ -142,7 +142,7 @@ an.  Es ist saum&auml;ssig heiss.
 
 Hier ist eine Karte mit der Route.
 
-![Route]({{ "assets/colorado_tour/i2018-08-01-065956_834x618_scrot.png" | absolute_url}})
+![Route]({{ "assets/colorado_tour/2018-08-01-065956_834x618_scrot.png" | absolute_url}})
 
 Ende der ersten Tagesetappe war etwas links vom 287 Schild wo es
 gerade in den gr&uuml;nen Bereich geht in der N&auml;he der Red
