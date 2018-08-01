@@ -4,7 +4,7 @@ title: "Vier Tage auf der Colorado Route"
 date: 2018-7-29
 ---
 
-![Gravel road in Northern Colorado]({{ "assets/gravel_road.jpg" | absolute_url}})
+![Gravel road in Northern Colorado]({{ "assets/colorado_route/gravel_road.jpg" | absolute_url}})
 
 In Colorado gibt viele tausend Kilometer Feldwege und
 unbefestigte Stra&szlig;en. Die meisten sind weitab jeglicher
@@ -93,11 +93,19 @@ Tage keine Gelegenheit nachzufassen.
 Nach der Pause gehts endlich auf Feldwegen weiter. Um 8 Uhr ist
 Feierabend. Gesch&auml;tzte 10 Stunden reine Fahrzeit und 200km.
 
+Hier ist ein Bild vom Anfang der Feldwege:
+
+![Gravel roads begin]({{ "assets/colorado_route/bike0.jpg" | absolute_url}})
+
 
 # 2. Tag
 
 Viel Gegenwind und loser Schotter. Also langsam. Zwei mal kurz
 verfahren. Viel hoch und runter, manchmal ganz sch&ouml;n steil.
+
+Hier ist ein Bild vom 2. Tag:
+
+![Rad]({{ "assets/colorado_route/bike.jpg" | absolute_url}})
 
 
 # 3. Tag
@@ -129,3 +137,18 @@ Strecke Mittagspause in Meeker und dann den Rest.  Die letzten
 an.  Es ist saum&auml;ssig heiss.
 
 
+# Routen&uuml;berblick
+
+
+Hier ist eine Karte mit der Route.
+
+![Route]({{ "assets/colorado_route/i2018-08-01-065956_834x618_scrot.png" | absolute_url}})
+
+Ende der ersten Tagesetappe war etwas links vom 287 Schild wo es
+gerade in den gr&uuml;nen Bereich geht in der N&auml;he der Red
+Feather Lakes. Ende der zweiten Tages Etappe war wo die Route
+Richtung Norden zur Grenze von Wyoming abknickt (an der Grenze
+des Medicine Bow Routt National Forest). Ende der dritten
+Tagesetappe war in Craig (vom Ende der aufgezeichneten Route aus
+nach S&uuml;den auf der Stra&szlig;e. Von Craig ging es am 4. Tag
+&uuml;ber Meeker nach Rifle.
