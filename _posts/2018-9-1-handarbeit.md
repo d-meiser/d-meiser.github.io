@@ -37,9 +37,9 @@ geh&auml;kelt. Das mu&szlig; Monate gedauert haben."
 
 # Craft (English)
 
-t must have been at least 20 years now but I remember it as if it
-was yesterday. Our neighbour came over. She was beaming. I will
-never forget the pride and happiness on her face.
+It must have been at least 20 years now but I remember it as if
+it was yesterday. Our neighbour came over. She was beaming. I
+will never forget the pride and happiness on her face.
 
 "Birgit!"
 
