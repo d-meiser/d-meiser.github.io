@@ -5,7 +5,7 @@ date: 2018-9-1
 ---
 
 
-# Handarbeit (Deutsch)
+# Handarbeit
 
 Es ist mehr als 20 Jahre her aber ich erinnere mich noch
 als w&auml;re es gestern gewesen. Unsere Nachbarin kam r&uuml;ber
@@ -35,7 +35,7 @@ stolz auf unsere Nachbarin.
 geh&auml;kelt. Das mu&szlig; Monate gedauert haben."
 
 
-# Craft (English)
+# Craft
 
 It must have been at least 20 years now but I remember it as if
 it was yesterday. Our neighbour came over. She was beaming. I
