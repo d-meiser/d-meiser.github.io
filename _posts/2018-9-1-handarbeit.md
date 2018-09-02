@@ -8,15 +8,15 @@ date: 2018-9-1
 # Handarbeit (Deutsch)
 
 Es ist mehr als 20 Jahre her aber ich erinnere mich noch
-als w&aumlre es gestern gewesen. Unsere Nachbarin kam r&uumlber
-in unseren Garten. Es war offensichtlich, da&sz sie sehr
-gl&uumlcklich und stolz war.
+als w&auml;re es gestern gewesen. Unsere Nachbarin kam r&uuml;ber
+in unseren Garten. Es war offensichtlich, da&sz; sie sehr
+gl&uuml;cklich und stolz war.
 
 "Birgit!" 
 
-Meine Mutter war eingeschlafen. Es kam nicht oft vor, da&sz
-unsere Nachbarin r&uumlber kam. Es ist m&oumlglich, da&sz dies
-das erste mal war.
+Meine Mutter war eingeschlafen. Es kam nicht oft vor, da&sz;
+unsere Nachbarin r&uuml;ber kam. Es ist m&ouml;glich, da&szsz;
+dies das erste mal war.
 
 "Birgit!"
 
@@ -24,15 +24,15 @@ Meine Mutter setzte sich etwas benommen auf.
 
 "Ist was passiert?"
 
-Ich konnte nicht h&oumlren, was unsere Nachbarin sagte. Aber sie
-wollte, da&sz meine Mutter mit ihr kam. Zur&uumlck zu ihrem Haus.
-Zu ihrer K&uumlche.
+Ich konnte nicht h&ouml;ren, was unsere Nachbarin sagte. Aber sie
+wollte, da&szsz; meine Mutter mit ihr kam. Zur&uuml;ck zu ihrem
+Haus. Zu ihrer K&uuml;che.
 
-Als meine Mutter zur&uumlckkam are sie auch gl&uumlcklich und
+Als meine Mutter zur&uuml;ckkam are sie auch gl&uuml;cklich und
 stolz auf unsere Nachbarin.
 
 "Sie hat mir ihre Tischdecke gezeigt. Sie hat sie selbst
-geh&aumlkelt. Das mu&sz Monate gedauert haben."
+geh&auml;kelt. Das mu&szsz; Monate gedauert haben."
 
 
 # Craft (English)
