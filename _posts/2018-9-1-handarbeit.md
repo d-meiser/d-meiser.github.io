@@ -28,7 +28,7 @@ Ich konnte nicht h&ouml;ren, was unsere Nachbarin sagte. Aber sie
 wollte, da&szlig; meine Mutter mit ihr kam. Zur&uuml;ck zu ihrem Haus.
 Zu ihrer K&uuml;che.
 
-Als meine Mutter zur&uuml;ckkam are sie auch gl&uuml;cklich und
+Als meine Mutter zur&uuml;ck kam war sie auch gl&uuml;cklich und
 stolz auf unsere Nachbarin.
 
 "Sie hat mir ihre Tischdecke gezeigt. Sie hat sie selbst
