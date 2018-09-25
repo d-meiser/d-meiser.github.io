@@ -93,7 +93,7 @@ Overall I was pretty happy with my gear choices.
 
 # Day 1
 
-![Day 1 segment]({{ "assets/denver_to_seattle_attempt/map_day1.png" | absolute_url }} =600x)
+<img src={{ "assets/denver_to_seattle_attempt/map_day1.png" | absolute_url }} alt="Day 1 segment" width="600"/>
 
 I left my house at 6:30am on Tuesday, September 18. My goal was
 to make it to a point along US 287 somewhere past Laramie towards
