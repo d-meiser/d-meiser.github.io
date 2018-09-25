@@ -149,7 +149,7 @@ conditions for the next 2.5 days.
 I was intimidated but felt good physically so I decided to keep
 going and to just see what happens. The first 40 miles went
 reasonably well albeit with a stiff side wind straight from the
-West. As soon as I turned onto US 24 to head West towards Dubois
+West. As soon as I turned onto US 26 to head West towards Dubois
 and ultimately Yellowstone, this wind became a real problem.
 Consistent with the forecast, I'd guess that it was somewhere in
 the 20s mph range. But there were extended stretches where the
