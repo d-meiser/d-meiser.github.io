@@ -93,6 +93,8 @@ Overall I was pretty happy with my gear choices.
 
 # Day 1
 
+![Day 1 segment]({{ "assets/map_day1.png" | absolute_url }})
+
 I left my house at 6:30am on Tuesday, September 18. My goal was
 to make it to a point along US 287 somewhere past Laramie towards
 Rawlins. It was mostly an uneventful ride. Brutally hot though.
@@ -104,6 +106,8 @@ of mice that kept me from getting much sleep.
 
 
 # Day 2
+
+![Day 2 segment]({{ "assets/map_day2.png" | absolute_url }})
 
 Left camp around 5:30am. Ran out of paved road at Walcott where
 US 287 reconnects with I-80. Took a dirt road to the North West
@@ -133,6 +137,8 @@ crashed at the City Park in Lander (legal free camping!) around
 
 
 # Day 3
+
+![Day 3 segment]({{ "assets/map_day3.png" | absolute_url }})
 
 The forecast looked not great from here on out. Sub freezing
 nighttime temperatures with wide spread frost in the mornings and
@@ -194,6 +200,8 @@ Park. I was happy.
 
 # Day 4
 
+![Day 4 segment]({{ "assets/map_day4.png" | absolute_url }})
+
 This morning was very cold. Frost on the grass everywhere. It was
 difficult to get motivated to peel myself out of the sleeping
 bag, put on bike shorts, get on my bike and get going. I finally
@@ -207,6 +215,8 @@ bag and to do some laundry in the sink.
 
 
 # Day 5
+
+![Day 5 segment]({{ "assets/map_day5.png" | absolute_url }})
 
 I decided to return home via Walden and Poudre Canyon. It was a
 very scenic ride from Wyoming into the North Park area in
@@ -229,6 +239,8 @@ night probably because my camp was slightly above 8000ft.
 
 
 # Day 6
+
+![Day 6 segment]({{ "assets/map_day6.png" | absolute_url }})
 
 Next morning I climbed the remaining 2000ft to the top of Cameron
 pass. Then 70 or so miles of descending Poudre Canyon to Laporte.
