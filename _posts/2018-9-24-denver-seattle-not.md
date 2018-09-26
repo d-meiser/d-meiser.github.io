@@ -14,7 +14,7 @@ Southerly route via Boise, Idaho or a more Northerly route via
 Western Montana and Eastern Washington depending on conditions.
 All in all about 1400 to 1500 miles.
 
-There were difficulties before the tour even began. For one
+There were difficulties before the tour began. For one
 thing, my job change requires me to relocate from Colorado to
 Washington. Therefore there were many things to organize and to
 take care of. By the time I had things in good enough shape where
@@ -29,7 +29,7 @@ unpleasantly cold.
 
 Nevertheless I decided to give it a go. Worst case scenario I'd
 have to bail from somewhere along the way but I'd still have a
-very fun adventure.
+fun adventure.
 
 So things were intense leading up to the trip. Lots of phone calls
 with property managers in Colorado and Washington, orchestrating
@@ -37,9 +37,6 @@ the transportation of my belongings, meeting with many good
 friends to say my farewells in case there wouldn't be an
 opportunity after the trip, and getting my gear in order for the
 trip.
-
-
-# Preparation
 
 Monday, September 17, I finally was able to gather all the parts
 needed to build a front wheel with dynohub along with head and
@@ -87,8 +84,8 @@ include:
   dark.
 * Wald basked on Nitto M12 front rack for items that I needed
   frequent access to and food and snacks.
-* Fenders. I needed to be able to ride on days with less than
-  ideal weather.
+* SKS P45 Fenders. I needed to be able to ride on days with less
+  than ideal weather.
 
 Overall I was pretty happy with my gear choices.
 
@@ -118,11 +115,12 @@ US 287 reconnects with I-80. Took a dirt road to the North West
 through some hogbacks that shortly turned to gravel, then to
 sand, then to desert before reaching the ghost town of Fort
 Steel. Some tedious biking and time consuming hiking along this
-stretch. The following picture shows some of the terrain between Walcott and Fort Steele:
+stretch. The following picture shows some of the terrain between
+Walcott and Fort Steele:
 
 ![Offroading]({{ "assets/denver_to_seattle_attempt/offroading_fort_steele.jpg" | absolute_url }})
 
-From Fort Steel I took I-80 past Sinclair to Rawlins and arrived
+From Fort Steele I took I-80 past Sinclair to Rawlins and arrived
 there around 12:30pm. Talked to a couple of chaps that were on
 day 28 of their tour on the Great Divide Trail. Had just finished
 the Great Basin and were going South. From Rawlins I headed North
@@ -152,7 +150,7 @@ The forecast looked not great from here on out. Sub freezing
 nighttime temperatures with wide spread frost in the mornings and
 consistent West winds (head wind) of more than 20mph. In fact,
 the wind was apparently bad enough that NOAA showed red hazardous
-conditions for the next 2.5 days.
+conditions warnings for the next 2.5 days.
 
 I was intimidated but felt good physically so I decided to keep
 going and to just see what happens. The first 40 miles went
@@ -166,30 +164,30 @@ Continental Divide where the wind speeds were higher.
 
 The remaining 30 miles to Dubois were very painful. It took me
 about five hours and most of that time I was in the drops,
-working very hard to make barely more than hiking speed. Gearing
-never higher than 38/18 and a long stretches of 38/24. It was
-also cold. I was wind chilled the entire time while wearing
+working very hard to achieve barely more than hiking speed.
+Gearing never higher than 38/18 and long stretches of 38/24. It
+was also cold. I was wind chilled the entire time while wearing
 almost all my clothes except for a down jacket.
 
 After a 30 minute lunch break at Super Foods in Dubois I decided
 to point my bike East and head back to Lander. It was a bit of a
-spur of the moment decision. I'm sure the pain and exhausting of
+spur of the moment decision. I'm sure the pain and exhaustion of
 that day played a big part in it. But the bigger picture was
-objectively not looking good. I could not hope to make more than
-another 30 miles of progress that day. And probably
+objectively not looking good either. I could not hope to make
+more than another 30 miles of progress that day. And probably
 significantly less than 100 miles on the following two days. At
-that point I'd be in a pretty hole time and distance wise. And
-I'd have to really exert myself to even make it that far. A
+that point I'd be in a pretty big hole time and distance wise.
+And I'd have to really exert myself to even make it that far. A
 couple of tourers coming down from Moran told me that it had been
 storming up there the last couple of days with good amounts of
 precipitation. Rain during the day and snow during the night.
 Frost in the morning.
 
 So while I'm sure that some people would have been able to press
-on and some would have been able to finish on the schedule I had
-allowed myself I believe that I made the right decision for
-myself and I'm happy with it. Of course it was very disappointing
-and upsetting at the time.
+on and some would have been able to finish on my schedule I
+believe that I made the right decision for myself and I'm happy
+with it. Of course it was very disappointing and upsetting at the
+time.
 
 It was remarkable to observe the changes that the decision to
 turn around brought within me. Up until that point the whole ride
@@ -238,10 +236,10 @@ rest of the return trip feasible in one more day. At this point I
 was struggling to cover the distance I had done on the first two
 days on the way out in three days. It was close to 400 miles from
 Lander to Broomfield via this route. I was hungry most of the
-time and was not feeling very strong most of the time.
+time and was not feeling very strong.
 
 I had the worst dinner of the trip. Half a loaf of Hostess
-Classic Wheat "bread" with eighth servings of Oscar Meyer salami.
+Classic Wheat "bread" with eight servings of Oscar Meyer salami.
 That stuff is made of 98% pink slime with a few specks of pig
 hoof I'm sure. But it's got a few hundred percent of your daily
 sodium! So works for me. Also it was unpleasantly cold that
