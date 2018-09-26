@@ -77,6 +77,8 @@ the Summerlite by Western Mountaineering to save weight and bulk.
 I used the 9l Revelate Designs frame bag that has worked well for
 me on several previous trips.
 
+![Here's my rig]({{ "assets/denver_to_seattle_attempt/rig.jpg" | absolute_url }})
+
 Other modifications to the bike since the Colorado Route trip
 include:
 
@@ -104,6 +106,8 @@ Laramie to refuel. Reached a camp spot off the highway around
 8:30pm. The dyno powered lights worked very well. There were lots
 of mice that kept me from getting much sleep.
 
+![A dry lake]({{ "assets/denver_to_seattle_attempt/saltlake.jpg" | absolute_url }})
+
 
 # Day 2
 
@@ -114,7 +118,9 @@ US 287 reconnects with I-80. Took a dirt road to the North West
 through some hogbacks that shortly turned to gravel, then to
 sand, then to desert before reaching the ghost town of Fort
 Steel. Some tedious biking and time consuming hiking along this
-stretch.
+stretch. The following picture shows some of the terrain between Walcott and Fort Steele:
+
+![Offroading]({{ "assets/denver_to_seattle_attempt/offroading_fort_steele.jpg" }})
 
 From Fort Steel I took I-80 past Sinclair to Rawlins and arrived
 there around 12:30pm. Talked to a couple of chaps that were on
@@ -122,6 +128,8 @@ day 28 of their tour on the Great Divide Trail. Had just finished
 the Great Basin and were going South. From Rawlins I headed North
 using US 287 through the gas station of Muddy Gap, about 40 miles
 from Rawlins, and then another 80 miles to Lander.
+
+![Getting cold]({{ "assets/denver_to_seattle_attempt/gettingcold.jpg" | absolute_url }})
 
 By the time I got to Muddy Gap around 4pm the weather was
 changing and I was getting worried. Over the Wind River Range to
@@ -222,6 +230,8 @@ I decided to return home via Walden and Poudre Canyon. It was a
 very scenic ride from Wyoming into the North Park area in
 Colorado. There were beautiful fall colors. A couple of
 significant looking wild fires were raging West of Walden.
+
+![smoke]({{ "assets/denver_to_seattle_attempt/smoke.jpg" | absolute_url }})
 
 I continued about 20 miles past Walden on Highway 14 to make the
 rest of the return trip feasible in one more day. At this point I
