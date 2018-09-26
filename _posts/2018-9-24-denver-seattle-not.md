@@ -120,7 +120,7 @@ sand, then to desert before reaching the ghost town of Fort
 Steel. Some tedious biking and time consuming hiking along this
 stretch. The following picture shows some of the terrain between Walcott and Fort Steele:
 
-![Offroading]({{ "assets/denver_to_seattle_attempt/offroading_fort_steele.jpg" }})
+![Offroading]({{ "assets/denver_to_seattle_attempt/offroading_fort_steele.jpg" | absolute_url }})
 
 From Fort Steel I took I-80 past Sinclair to Rawlins and arrived
 there around 12:30pm. Talked to a couple of chaps that were on
