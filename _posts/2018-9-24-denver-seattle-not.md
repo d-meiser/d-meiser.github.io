@@ -292,7 +292,7 @@ I got home around 6pm.
   the flats at all but I haven't been able to find it in any
   wider options. I think I'd like to give the Nitto Noodle a try,
   perhaps 46cm wide.
-* Schwalbe Marathon Green Guard is an amazing tire. Roles well,
+* Schwalbe Marathon Green Guard is an amazing tire. Rolls well,
   feels supple and comfortable, and is tough as nails. I pulled a
   thread of a steel cable out of the rear tire. No idea how deep it
   was in there but it was in there. No puncture. Rolling over about
